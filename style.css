@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#chargement {
+    color: white;
+}
+
+canvas {
+    position: absolute;
+    background: black;
+    max-width: 100%;
+    max-height: 100%;
+    top: 0;
+    left: 0;
+    border: 1px solid white;
+    /* filter: blur(1px)  /* contrast(1); */
+
+}
+
+.rock {
+    display: none;
+}
